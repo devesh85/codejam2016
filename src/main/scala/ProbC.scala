@@ -13,6 +13,7 @@ object ProbC extends App{
   def processInput(cl:String):String ={
     val inputs = cl.split(" ")
 
+
     val J = inputs(0)toInt
     val P = inputs(1).toInt
 
